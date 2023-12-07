@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-image: url(https://i.pinimg.com/originals/4b/b9/f2/4bb9f22977843bd42ab8606637ff052e.jpg);
+}
+
+.header {
+    text-align: center;
+    
+    color: rgb(168, 23, 23);
+    padding: 10px;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px;
+}
+
+.box {
+    max-width: 400px;
+    background-color: rgba(51, 51, 51, 0.9);
+    color: white;
+    border: 2px solid #333;
+    padding: 20px;
+    text-align: justify;
+}
+
+.intro {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+
+.section{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3cm;
+    margin-right: 3cm;
+    margin-top: 4px;
+    background-color: rgba(51, 51, 51, 0.9);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+
+.button{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: rgba(51, 51, 51, 0.9);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 2cm auto;
+    padding: 5px; 
+    max-width: 90px;
+}
+
+
+
+
+
+
+
+.button-translate {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px;
+    background-color: rgba(51, 51, 51, 0.9);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.button-accueil {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    padding: 10px;
+    background-color: rgba(51, 51, 51, 0.9);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
